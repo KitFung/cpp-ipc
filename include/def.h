@@ -27,10 +27,10 @@ using uint_t = typename uint<N>::type;
 
 enum : std::size_t {
     invalid_value   = (std::numeric_limits<std::size_t>::max)(),
-    data_length     = 64,
+    data_length     = 256,
     large_msg_limit = data_length,
     large_msg_cache = 32,
-    default_timeout = 100 // ms
+    default_timeout = 10 // ms
 };
 
 enum class relat { // multiplicity of the relationship
