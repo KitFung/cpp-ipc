@@ -7,5 +7,6 @@ if(NOT MSVC)
   set(CMAKE_CXX_FLAGS_RELEASE "${CMAKE_CXX_FLAGS_RELEASE} -O2")
 endif()
 
+add_subdirectory(ipc)
 # add_subdirectory(test)
 # add_subdirectory(chat)
